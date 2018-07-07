@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6278697120F08420007ECD5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6278697020F08420007ECD5F /* AppDelegate.swift */; };
+		6278697320F08420007ECD5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6278697220F08420007ECD5F /* ViewController.swift */; };
+		6278697620F08420007ECD5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6278697420F08420007ECD5F /* Main.storyboard */; };
+		6278697820F08422007ECD5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6278697720F08422007ECD5F /* Assets.xcassets */; };
+		6278697B20F08422007ECD5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6278697920F08422007ECD5F /* LaunchScreen.storyboard */; };
+		6278698620F08422007ECD5F /* ThurstyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6278698520F08422007ECD5F /* ThurstyTests.swift */; };
+		6278699120F08422007ECD5F /* ThurstyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6278699020F08422007ECD5F /* ThurstyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6278698220F08422007ECD5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6278696520F08420007ECD5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6278696C20F08420007ECD5F;
+			remoteInfo = Thursty;
+		};
+		6278698D20F08422007ECD5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6278696520F08420007ECD5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6278696C20F08420007ECD5F;
+			remoteInfo = Thursty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6278696D20F08420007ECD5F /* Thursty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thursty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6278697020F08420007ECD5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6278697220F08420007ECD5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6278697520F08420007ECD5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6278697720F08422007ECD5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6278697A20F08422007ECD5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6278697C20F08422007ECD5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6278698120F08422007ECD5F /* ThurstyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThurstyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6278698520F08422007ECD5F /* ThurstyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThurstyTests.swift; sourceTree = "<group>"; };
+		6278698720F08422007ECD5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6278698C20F08422007ECD5F /* ThurstyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThurstyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6278699020F08422007ECD5F /* ThurstyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThurstyUITests.swift; sourceTree = "<group>"; };
+		6278699220F08422007ECD5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6278696A20F08420007ECD5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6278697E20F08422007ECD5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6278698920F08422007ECD5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6278696420F08420007ECD5F = {
+			isa = PBXGroup;
+			children = (
+				6278696F20F08420007ECD5F /* Thursty */,
+				6278698420F08422007ECD5F /* ThurstyTests */,
+				6278698F20F08422007ECD5F /* ThurstyUITests */,
+				6278696E20F08420007ECD5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6278696E20F08420007ECD5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6278696D20F08420007ECD5F /* Thursty.app */,
+				6278698120F08422007ECD5F /* ThurstyTests.xctest */,
+				6278698C20F08422007ECD5F /* ThurstyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6278696F20F08420007ECD5F /* Thursty */ = {
+			isa = PBXGroup;
+			children = (
+				6278697020F08420007ECD5F /* AppDelegate.swift */,
+				6278697220F08420007ECD5F /* ViewController.swift */,
+				6278697420F08420007ECD5F /* Main.storyboard */,
+				6278697720F08422007ECD5F /* Assets.xcassets */,
+				6278697920F08422007ECD5F /* LaunchScreen.storyboard */,
+				6278697C20F08422007ECD5F /* Info.plist */,
+			);
+			path = Thursty;
+			sourceTree = "<group>";
+		};
+		6278698420F08422007ECD5F /* ThurstyTests */ = {
+			isa = PBXGroup;
+			children = (
+				6278698520F08422007ECD5F /* ThurstyTests.swift */,
+				6278698720F08422007ECD5F /* Info.plist */,
+			);
+			path = ThurstyTests;
+			sourceTree = "<group>";
+		};
+		6278698F20F08422007ECD5F /* ThurstyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6278699020F08422007ECD5F /* ThurstyUITests.swift */,
+				6278699220F08422007ECD5F /* Info.plist */,
+			);
+			path = ThurstyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6278696C20F08420007ECD5F /* Thursty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6278699520F08422007ECD5F /* Build configuration list for PBXNativeTarget "Thursty" */;
+			buildPhases = (
+				6278696920F08420007ECD5F /* Sources */,
+				6278696A20F08420007ECD5F /* Frameworks */,
+				6278696B20F08420007ECD5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thursty;
+			productName = Thursty;
+			productReference = 6278696D20F08420007ECD5F /* Thursty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6278698020F08422007ECD5F /* ThurstyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6278699820F08422007ECD5F /* Build configuration list for PBXNativeTarget "ThurstyTests" */;
+			buildPhases = (
+				6278697D20F08422007ECD5F /* Sources */,
+				6278697E20F08422007ECD5F /* Frameworks */,
+				6278697F20F08422007ECD5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6278698320F08422007ECD5F /* PBXTargetDependency */,
+			);
+			name = ThurstyTests;
+			productName = ThurstyTests;
+			productReference = 6278698120F08422007ECD5F /* ThurstyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6278698B20F08422007ECD5F /* ThurstyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6278699B20F08422007ECD5F /* Build configuration list for PBXNativeTarget "ThurstyUITests" */;
+			buildPhases = (
+				6278698820F08422007ECD5F /* Sources */,
+				6278698920F08422007ECD5F /* Frameworks */,
+				6278698A20F08422007ECD5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6278698E20F08422007ECD5F /* PBXTargetDependency */,
+			);
+			name = ThurstyUITests;
+			productName = ThurstyUITests;
+			productReference = 6278698C20F08422007ECD5F /* ThurstyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6278696520F08420007ECD5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = sjoshi;
+				TargetAttributes = {
+					6278696C20F08420007ECD5F = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					6278698020F08422007ECD5F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 6278696C20F08420007ECD5F;
+					};
+					6278698B20F08422007ECD5F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 6278696C20F08420007ECD5F;
+					};
+				};
+			};
+			buildConfigurationList = 6278696820F08420007ECD5F /* Build configuration list for PBXProject "Thursty" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6278696420F08420007ECD5F;
+			productRefGroup = 6278696E20F08420007ECD5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6278696C20F08420007ECD5F /* Thursty */,
+				6278698020F08422007ECD5F /* ThurstyTests */,
+				6278698B20F08422007ECD5F /* ThurstyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6278696B20F08420007ECD5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6278697B20F08422007ECD5F /* LaunchScreen.storyboard in Resources */,
+				6278697820F08422007ECD5F /* Assets.xcassets in Resources */,
+				6278697620F08420007ECD5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6278697F20F08422007ECD5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6278698A20F08422007ECD5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6278696920F08420007ECD5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6278697320F08420007ECD5F /* ViewController.swift in Sources */,
+				6278697120F08420007ECD5F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6278697D20F08422007ECD5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6278698620F08422007ECD5F /* ThurstyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6278698820F08422007ECD5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6278699120F08422007ECD5F /* ThurstyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6278698320F08422007ECD5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6278696C20F08420007ECD5F /* Thursty */;
+			targetProxy = 6278698220F08422007ECD5F /* PBXContainerItemProxy */;
+		};
+		6278698E20F08422007ECD5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6278696C20F08420007ECD5F /* Thursty */;
+			targetProxy = 6278698D20F08422007ECD5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6278697420F08420007ECD5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6278697520F08420007ECD5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6278697920F08422007ECD5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6278697A20F08422007ECD5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6278699320F08422007ECD5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6278699420F08422007ECD5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6278699620F08422007ECD5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U7DL3N2X9;
+				INFOPLIST_FILE = Thursty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sjoshi.Thursty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6278699720F08422007ECD5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U7DL3N2X9;
+				INFOPLIST_FILE = Thursty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sjoshi.Thursty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6278699920F08422007ECD5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U7DL3N2X9;
+				INFOPLIST_FILE = ThurstyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sjoshi.ThurstyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thursty.app/Thursty";
+			};
+			name = Debug;
+		};
+		6278699A20F08422007ECD5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U7DL3N2X9;
+				INFOPLIST_FILE = ThurstyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sjoshi.ThurstyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thursty.app/Thursty";
+			};
+			name = Release;
+		};
+		6278699C20F08422007ECD5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U7DL3N2X9;
+				INFOPLIST_FILE = ThurstyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sjoshi.ThurstyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Thursty;
+			};
+			name = Debug;
+		};
+		6278699D20F08422007ECD5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U7DL3N2X9;
+				INFOPLIST_FILE = ThurstyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sjoshi.ThurstyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Thursty;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6278696820F08420007ECD5F /* Build configuration list for PBXProject "Thursty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6278699320F08422007ECD5F /* Debug */,
+				6278699420F08422007ECD5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6278699520F08422007ECD5F /* Build configuration list for PBXNativeTarget "Thursty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6278699620F08422007ECD5F /* Debug */,
+				6278699720F08422007ECD5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6278699820F08422007ECD5F /* Build configuration list for PBXNativeTarget "ThurstyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6278699920F08422007ECD5F /* Debug */,
+				6278699A20F08422007ECD5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6278699B20F08422007ECD5F /* Build configuration list for PBXNativeTarget "ThurstyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6278699C20F08422007ECD5F /* Debug */,
+				6278699D20F08422007ECD5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6278696520F08420007ECD5F /* Project object */;
+}
