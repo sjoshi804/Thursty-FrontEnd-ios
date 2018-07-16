@@ -8,18 +8,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+class ViewController: UIViewController
+{
+    //Definition of Interface Builder Outlets
+    @IBOutlet var partyName: UITextField!
+    @IBOutlet var partyTime: UIDatePicker!
+    @IBOutlet var partyLocation: UITextField!
+    @IBOutlet var createPartyButton: UIButton!
+    
+    @IBAction func createParty(sender: AnyObject)
+    {
+        //Create new party hosted by user
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
