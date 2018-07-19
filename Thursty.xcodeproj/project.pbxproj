@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62217FB62100A27000D4622E /* PartyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62217FB52100A27000D4622E /* PartyModel.swift */; };
+		62217FB82100A2D400D4622E /* GuestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62217FB72100A2D400D4622E /* GuestModel.swift */; };
+		62217FBA2100A31000D4622E /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62217FB92100A31000D4622E /* UserModel.swift */; };
+		62217FBC2100A38200D4622E /* PermissionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62217FBB2100A38200D4622E /* PermissionModel.swift */; };
+		62217FBF2100A3F400D4622E /* PartyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62217FBE2100A3F400D4622E /* PartyAPI.swift */; };
+		62217FC12100A40700D4622E /* GuestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62217FC02100A40700D4622E /* GuestAPI.swift */; };
+		62217FC32100A43400D4622E /* PermissionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62217FC22100A43400D4622E /* PermissionAPI.swift */; };
+		62217FC72100A46B00D4622E /* UserProfileAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62217FC62100A46B00D4622E /* UserProfileAPI.swift */; };
+		62217FCA2100A7C000D4622E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62217FC92100A7C000D4622E /* Constants.swift */; };
+		62217FCC2100AB5C00D4622E /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62217FCB2100AB5C00D4622E /* NetworkLayer.swift */; };
 		6278697120F08420007ECD5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6278697020F08420007ECD5F /* AppDelegate.swift */; };
 		6278697320F08420007ECD5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6278697220F08420007ECD5F /* ViewController.swift */; };
 		6278697620F08420007ECD5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6278697420F08420007ECD5F /* Main.storyboard */; };
@@ -34,6 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		62217FB52100A27000D4622E /* PartyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyModel.swift; sourceTree = "<group>"; };
+		62217FB72100A2D400D4622E /* GuestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestModel.swift; sourceTree = "<group>"; };
+		62217FB92100A31000D4622E /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		62217FBB2100A38200D4622E /* PermissionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionModel.swift; sourceTree = "<group>"; };
+		62217FBE2100A3F400D4622E /* PartyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyAPI.swift; sourceTree = "<group>"; };
+		62217FC02100A40700D4622E /* GuestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestAPI.swift; sourceTree = "<group>"; };
+		62217FC22100A43400D4622E /* PermissionAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionAPI.swift; sourceTree = "<group>"; };
+		62217FC62100A46B00D4622E /* UserProfileAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileAPI.swift; sourceTree = "<group>"; };
+		62217FC92100A7C000D4622E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		62217FCB2100AB5C00D4622E /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
 		6278696D20F08420007ECD5F /* Thursty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thursty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6278697020F08420007ECD5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6278697220F08420007ECD5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +94,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62217FBD2100A38F00D4622E /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				62217FB52100A27000D4622E /* PartyModel.swift */,
+				62217FB92100A31000D4622E /* UserModel.swift */,
+				62217FB72100A2D400D4622E /* GuestModel.swift */,
+				62217FBB2100A38200D4622E /* PermissionModel.swift */,
+			);
+			name = "Data Models";
+			sourceTree = "<group>";
+		};
+		62217FC82100A48000D4622E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				62217FC62100A46B00D4622E /* UserProfileAPI.swift */,
+				62217FC02100A40700D4622E /* GuestAPI.swift */,
+				62217FC22100A43400D4622E /* PermissionAPI.swift */,
+				62217FBE2100A3F400D4622E /* PartyAPI.swift */,
+				62217FCB2100AB5C00D4622E /* NetworkLayer.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
 		6278696420F08420007ECD5F = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +140,14 @@
 		6278696F20F08420007ECD5F /* Thursty */ = {
 			isa = PBXGroup;
 			children = (
+				62217FC92100A7C000D4622E /* Constants.swift */,
+				62217FC82100A48000D4622E /* API */,
 				6278697020F08420007ECD5F /* AppDelegate.swift */,
 				6278697220F08420007ECD5F /* ViewController.swift */,
 				6278697420F08420007ECD5F /* Main.storyboard */,
 				6278697720F08422007ECD5F /* Assets.xcassets */,
 				6278697920F08422007ECD5F /* LaunchScreen.storyboard */,
+				62217FBD2100A38F00D4622E /* Data Models */,
 				6278697C20F08422007ECD5F /* Info.plist */,
 			);
 			path = Thursty;
@@ -256,8 +302,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62217FCC2100AB5C00D4622E /* NetworkLayer.swift in Sources */,
+				62217FB82100A2D400D4622E /* GuestModel.swift in Sources */,
+				62217FCA2100A7C000D4622E /* Constants.swift in Sources */,
 				6278697320F08420007ECD5F /* ViewController.swift in Sources */,
+				62217FC32100A43400D4622E /* PermissionAPI.swift in Sources */,
+				62217FC72100A46B00D4622E /* UserProfileAPI.swift in Sources */,
+				62217FBC2100A38200D4622E /* PermissionModel.swift in Sources */,
+				62217FC12100A40700D4622E /* GuestAPI.swift in Sources */,
+				62217FBF2100A3F400D4622E /* PartyAPI.swift in Sources */,
 				6278697120F08420007ECD5F /* AppDelegate.swift in Sources */,
+				62217FBA2100A31000D4622E /* UserModel.swift in Sources */,
+				62217FB62100A27000D4622E /* PartyModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
