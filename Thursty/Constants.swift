@@ -9,17 +9,7 @@
 struct Constants
 {
     //URL Constants
-    static let partyCreateURL = "https:test-thursday.herokuapp.com/party/"
-    
-    //REST API Request Types
-    enum request: String
-    {
-        case POST
-        case PUT
-        case PATCH
-        case GET
-        case DELETE
-    }
+    static let partyCreateURL = "https:test-thursday.herokuapp.com/party/all/"
     
     //Error Handling Strings
 }

@@ -16,7 +16,6 @@
 		62217FC32100A43400D4622E /* PermissionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62217FC22100A43400D4622E /* PermissionAPI.swift */; };
 		62217FC72100A46B00D4622E /* UserProfileAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62217FC62100A46B00D4622E /* UserProfileAPI.swift */; };
 		62217FCA2100A7C000D4622E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62217FC92100A7C000D4622E /* Constants.swift */; };
-		62217FCC2100AB5C00D4622E /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62217FCB2100AB5C00D4622E /* NetworkLayer.swift */; };
 		6278697120F08420007ECD5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6278697020F08420007ECD5F /* AppDelegate.swift */; };
 		6278697320F08420007ECD5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6278697220F08420007ECD5F /* ViewController.swift */; };
 		6278697620F08420007ECD5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6278697420F08420007ECD5F /* Main.storyboard */; };
@@ -24,6 +23,8 @@
 		6278697B20F08422007ECD5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6278697920F08422007ECD5F /* LaunchScreen.storyboard */; };
 		6278698620F08422007ECD5F /* ThurstyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6278698520F08422007ECD5F /* ThurstyTests.swift */; };
 		6278699120F08422007ECD5F /* ThurstyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6278699020F08422007ECD5F /* ThurstyUITests.swift */; };
+		6287A7022107A54000F6352F /* NetworkingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6287A7012107A54000F6352F /* NetworkingLayer.swift */; };
+		62928A5E2100B83800E04A43 /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62928A5D2100B83800E04A43 /* UtilityFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +54,6 @@
 		62217FC22100A43400D4622E /* PermissionAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionAPI.swift; sourceTree = "<group>"; };
 		62217FC62100A46B00D4622E /* UserProfileAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileAPI.swift; sourceTree = "<group>"; };
 		62217FC92100A7C000D4622E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		62217FCB2100AB5C00D4622E /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
 		6278696D20F08420007ECD5F /* Thursty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thursty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6278697020F08420007ECD5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6278697220F08420007ECD5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +67,8 @@
 		6278698C20F08422007ECD5F /* ThurstyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThurstyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6278699020F08422007ECD5F /* ThurstyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThurstyUITests.swift; sourceTree = "<group>"; };
 		6278699220F08422007ECD5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6287A7012107A54000F6352F /* NetworkingLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingLayer.swift; sourceTree = "<group>"; };
+		62928A5D2100B83800E04A43 /* UtilityFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +114,7 @@
 				62217FC02100A40700D4622E /* GuestAPI.swift */,
 				62217FC22100A43400D4622E /* PermissionAPI.swift */,
 				62217FBE2100A3F400D4622E /* PartyAPI.swift */,
-				62217FCB2100AB5C00D4622E /* NetworkLayer.swift */,
+				6287A7012107A54000F6352F /* NetworkingLayer.swift */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -140,15 +142,16 @@
 		6278696F20F08420007ECD5F /* Thursty */ = {
 			isa = PBXGroup;
 			children = (
-				62217FC92100A7C000D4622E /* Constants.swift */,
 				62217FC82100A48000D4622E /* API */,
-				6278697020F08420007ECD5F /* AppDelegate.swift */,
-				6278697220F08420007ECD5F /* ViewController.swift */,
-				6278697420F08420007ECD5F /* Main.storyboard */,
-				6278697720F08422007ECD5F /* Assets.xcassets */,
-				6278697920F08422007ECD5F /* LaunchScreen.storyboard */,
 				62217FBD2100A38F00D4622E /* Data Models */,
 				6278697C20F08422007ECD5F /* Info.plist */,
+				6278697720F08422007ECD5F /* Assets.xcassets */,
+				6278697920F08422007ECD5F /* LaunchScreen.storyboard */,
+				6278697420F08420007ECD5F /* Main.storyboard */,
+				6278697220F08420007ECD5F /* ViewController.swift */,
+				6278697020F08420007ECD5F /* AppDelegate.swift */,
+				62928A5D2100B83800E04A43 /* UtilityFunctions.swift */,
+				62217FC92100A7C000D4622E /* Constants.swift */,
 			);
 			path = Thursty;
 			sourceTree = "<group>";
@@ -302,7 +305,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62217FCC2100AB5C00D4622E /* NetworkLayer.swift in Sources */,
 				62217FB82100A2D400D4622E /* GuestModel.swift in Sources */,
 				62217FCA2100A7C000D4622E /* Constants.swift in Sources */,
 				6278697320F08420007ECD5F /* ViewController.swift in Sources */,
@@ -312,6 +314,8 @@
 				62217FC12100A40700D4622E /* GuestAPI.swift in Sources */,
 				62217FBF2100A3F400D4622E /* PartyAPI.swift in Sources */,
 				6278697120F08420007ECD5F /* AppDelegate.swift in Sources */,
+				62928A5E2100B83800E04A43 /* UtilityFunctions.swift in Sources */,
+				6287A7022107A54000F6352F /* NetworkingLayer.swift in Sources */,
 				62217FBA2100A31000D4622E /* UserModel.swift in Sources */,
 				62217FB62100A27000D4622E /* PartyModel.swift in Sources */,
 			);

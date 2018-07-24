@@ -43,10 +43,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Create Party"/>
                                 <connections>
-                                    <action selector="createPartyWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6uy-mS-vl5"/>
+                                    <action selector="createPartyWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rIS-sG-ggW"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Event Name" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="qcz-ge-NI6">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Party Name" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="qcz-ge-NI6">
                                 <rect key="frame" x="50" y="105" width="287" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
@@ -59,7 +59,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="createPartyButton" destination="q4o-6H-45P" id="89o-We-1Xw"/>
+                        <outlet property="createPartyButton" destination="q4o-6H-45P" id="938-b2-hHL"/>
+                        <outlet property="partyLocation" destination="Pd8-Td-uDK" id="sd6-gb-9jK"/>
+                        <outlet property="partyName" destination="qcz-ge-NI6" id="nNs-bZ-fnf"/>
+                        <outlet property="partyTime" destination="zTv-TL-va2" id="Oy9-M1-Ns0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
