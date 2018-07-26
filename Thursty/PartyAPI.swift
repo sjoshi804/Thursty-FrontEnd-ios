@@ -11,53 +11,25 @@ import Foundation
 
 class PartyAPI
 {
-    static func createParty(newParty: Party) -> Bool
+    static func createParty(name: String, time: String, location:String) -> Bool
     {
-        let jsonEncoder = JSONEncoder()
-        do
-        {
-            let jsonParams = try jsonEncoder.encode(newParty)
-            return NetworkingLayer.CreateUpdateRequest(requestURL: Constants.partyCreateURL, requestType: "POST", jsonParams: jsonParams)
-        }
-        catch
-        {
-            print("Error: unable to add parameters to POST request.")
-            return false
-        }
+        
+        let newParty = Party(createdAt: time, eventName: name, hostedBy: "UCLA:105032378", hostedByNameCache: "Siddharth", location: location, partyid: "UCLA:105032378-100", status: "Upcoming", time: time)
+        return NetworkingLayer.CreateUpdateRequest(requestURL: Constants.partyCreateURL, requestType: "POST", jsonParams: newParty)
     }
     
     static func getPartyList() -> [Party]
     {
-        let getURL = URL(string: "https://test-thursday.herokuapp.com/party/all/")!
-        var getRequest = URLRequest(url: getURL, cachePolicy: .useProtocolCachePolicy, timeoutInterval: 30.0)
-        getRequest.httpMethod = "GET"
-        getRequest.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        getRequest.setValue("application/json", forHTTPHeaderField: "Accept")
-        var party: [Party]?
-        URLSession.shared.dataTask(with: getRequest, completionHandler: { (data, response, error) -> Void in
-            if error != nil
-            {
-                print("GET Request: Communication error: \(error!)")
-                return
-            }
-            
-            if data != nil
-            {
-                guard let response = try? JSONDecoder().decode([Party].self, from:data!) else
-                {
-                    print("Error: Couldn't decode data into Party")
-                    return
-                }
-                party = response
-                return
-            }
-            else
-            {
-                DispatchQueue.main.async(execute: { print("Received empty response.") })
-                return
-            }
-        }).resume()
-        return party!
+        //Dummy object to indicate type
+        let dummy = Party(createdAt: "", eventName: "", hostedBy: "", hostedByNameCache: "", location: "", partyid: "", status: "", time: "")
+        return NetworkingLayer.GetListRequest(requestURL: Constants.partyCreateURL, returnType: dummy)!
     }
-
+    
+    static func getSingleParty() -> Party
+    {
+        //Dummy object to indicate type
+        let dummy = Party(createdAt: "", eventName: "", hostedBy: "", hostedByNameCache: "", location: "", partyid: "", status: "", time: "")
+        return NetworkingLayer.GetObjRequest(requestURL: Constants.partyCreateURL, returnType: dummy)!
+    }
+    
 }

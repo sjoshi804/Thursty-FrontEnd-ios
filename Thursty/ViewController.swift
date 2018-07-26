@@ -18,7 +18,7 @@ class ViewController: UIViewController
     
     @IBAction func createParty (sender: AnyObject)
     {
-       let newParty = Party(createdAt: "2018-07-19T12:14:40.524656Z", eventName: "Encoder Test", hostedBy: "UCLA:105032378", hostedByNameCache: "Me", location: "Westwood", partyid: "UCLA:105032378-14", status: "Active", time: "2018-07-19T12:14:40.524656Z")
+       print ("Create Party Initiated")
         
     }
 }
