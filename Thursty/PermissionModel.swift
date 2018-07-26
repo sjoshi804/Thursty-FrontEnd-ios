@@ -7,3 +7,7 @@
 //
 
 
+struct Permission: Codable
+{
+    
+}

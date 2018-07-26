@@ -7,3 +7,21 @@
 //
 
 import Foundation
+class GuestAPI
+{
+    static func showInterest(guestID: String, partyID: String) -> Bool
+    {
+        return false
+    }
+    
+    static func checkGuestIn(guestID: String, partyID: String) -> Bool
+    {
+        return false
+    }
+    
+    static func getGuestList(partyID: String) -> [Guest]
+    {
+        return []
+    }
+    
+}

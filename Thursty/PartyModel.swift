@@ -8,13 +8,13 @@
 
 struct Party: Codable
 {
-    let createdAt: String
-    let eventName: String
-    let hostedBy: String
-    let hostedByNameCache: String
-    let location: String
-    let partyid: String
-    let status: String
-    let time: String
+    var createdAt: String
+    var eventName: String
+    var hostedBy: String
+    var hostedByNameCache: String
+    var location: String
+    var partyid: String
+    var status: String
+    var time: String
 }
 

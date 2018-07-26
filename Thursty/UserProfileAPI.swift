@@ -7,3 +7,17 @@
 //
 
 import Foundation
+class UserProfileAPI
+{
+    //Create new profile
+    
+    //Edit profile details
+}
+
+class OrganizerProfileAPI
+{
+    //Create new profile
+    
+    //Edit profile details
+    
+}

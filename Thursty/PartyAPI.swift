@@ -32,4 +32,10 @@ class PartyAPI
         return NetworkingLayer.GetObjRequest(requestURL: Constants.partyCreateURL, returnType: dummy)!
     }
     
+    //Mark party as started for users to see
+    static func activateParty() -> Bool
+    {
+        return true
+    }
+    
 }

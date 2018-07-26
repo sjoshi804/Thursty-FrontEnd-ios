@@ -6,3 +6,12 @@
 //  Copyright © 2018 sjoshi. All rights reserved.
 //
 
+struct UserProfile: Codable
+{
+    
+}
+
+struct OrganizerProfile: Codable
+{
+    
+}

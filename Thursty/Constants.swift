@@ -10,6 +10,5 @@ struct Constants
 {
     //URL Constants
     static let partyCreateURL = "https:test-thursday.herokuapp.com/party/all/"
-    
     //Error Handling Strings
 }

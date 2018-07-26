@@ -6,4 +6,7 @@
 //  Copyright © 2018 sjoshi. All rights reserved.
 //
 
-
+struct Guest: Codable
+{
+    
+}
