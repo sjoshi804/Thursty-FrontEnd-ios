@@ -7,3 +7,16 @@
 //
 
 import Foundation
+class PermissionAPI
+{
+    static func grantPermission(operatorID: String, partyID: String) -> Bool
+    {
+        return false
+    }
+    
+    static func revokePermission(operatorID: String, partyID: String) -> Bool
+    {
+        return false
+    }
+    
+}
